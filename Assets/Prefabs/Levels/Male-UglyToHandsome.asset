@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4c4f0735b126a9449cfd6cdd59e8c57, type: 3}
+  m_Name: Male-UglyToHandsome
+  m_EditorClassIdentifier: 
+  levelType: 0
+  mainGameplayConfiguration:
+    initialDialogue: Please make me handsome
+    endDialogueLose: Nothing happened!
+    endDialogueWin: 
+    correctCraftToWin: 1
+    correctCharm: 7
+    introAnimation: 4
+    startClientVersion: 19
+    winAnimation: 0
+    winClientVersion: 20
+    showerMoneyOnWin: 0
+    recapType: 0
+    LoseAnimation: 4
+    LoseClientVersion: 19
+  oujiaConfig:
+    conversations: []
+    clientVersion: 0

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4c4f0735b126a9449cfd6cdd59e8c57, type: 3}
+  m_Name: Oujia - Hi love, Do you miss me
+  m_EditorClassIdentifier: 
+  levelType: 1
+  mainGameplayConfiguration:
+    isTutorial: 0
+    initialDialogue: FROGGO GGEEEELP
+    endDialogueLose: 
+    endDialogueWin: 
+    correctCraftToWin: 4
+    correctCharm: 0
+    introAnimation: 2
+    startClientVersion: 9
+    winAnimation: 0
+    winClientVersion: 10
+    showerMoneyOnWin: 0
+    recapType: 0
+    LoseAnimation: 6
+    LoseClientVersion: 9
+  oujiaConfig:
+    isTutorial: 1
+    conversations:
+    - question: Hi love. Do you miss me?
+      correctAnswer: Nope
+      characterAnimationWhenCorrect: 3
+    clientVersion: 24

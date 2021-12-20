@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4c4f0735b126a9449cfd6cdd59e8c57, type: 3}
+  m_Name: Male-PoorToRich
+  m_EditorClassIdentifier: 
+  levelType: 0
+  mainGameplayConfiguration:
+    initialDialogue: Shower me money!
+    endDialogueLose: I'm still poor
+    endDialogueWin: 
+    correctCraftToWin: 3
+    correctCharm: 3
+    introAnimation: 3
+    startClientVersion: 21
+    winAnimation: 0
+    winClientVersion: 22
+    showerMoneyOnWin: 1
+    recapType: 0
+    LoseAnimation: 2
+    LoseClientVersion: 21
+  oujiaConfig:
+    conversations: []
+    clientVersion: 0
